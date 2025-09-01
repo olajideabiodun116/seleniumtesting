@@ -31,4 +31,9 @@ jobs:
       # Step 4: Build and run tests
       - name: Build and run Selenium tests
         run: mvn clean test
+      - name: upload test reports
+        uses: actions/upload-artifact@v3
+        with:
+          name: test-reports
+          path: target/surefire-reports/
 
