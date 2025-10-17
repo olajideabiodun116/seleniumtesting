@@ -14,7 +14,7 @@ public class sauceDemoShopping {
     public void userIsOnTheLoginPage() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--incognito");
-        options.addArguments("--no-sandbox");
+        options.addArguments("--headless=new");
         driver = new ChromeDriver(options);
         driver.get("https://www.saucedemo.com/");
     }
