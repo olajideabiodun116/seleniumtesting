@@ -22,7 +22,7 @@ public class sauceDemoShopping {
         driver.findElement(By.id("user-name")).sendKeys("visual_user");
         driver.findElement(By.id("password")).sendKeys("secret_sauce");
     }
-    @And("User click the login button")
+    @And("user click the login button")
     public void userClickLoginButton() {
         driver.findElement(By.id("login-button")).click();
     }

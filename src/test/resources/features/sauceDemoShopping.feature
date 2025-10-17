@@ -6,7 +6,7 @@ Feature: Sauce Demo Shopping Cart Automation
 
     Given user is on the login page
     When user enters username and password
-    And User click the login button
+    And user click the login button
     Then user should see products page
     And user should click sauce labs backpack
     And user clicks add to cart
