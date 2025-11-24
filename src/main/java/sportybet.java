@@ -24,7 +24,7 @@ public class sportybet {
         usernameField.sendKeys("7066963039");
 
         // 7. Enter the password
-        passwordField.sendKeys("4TI7ven@me");
+        passwordField.sendKeys("TRDEE@132");
 
         // 8. Click the login button
         loginButton.click();
